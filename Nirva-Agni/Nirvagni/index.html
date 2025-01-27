@@ -42,9 +42,10 @@
 					<li class="scroll-to-section" style="margin-right: 20px;"><a href="#features">Features</a></li>
 					<li class="scroll-to-section" style="margin-right: 20px;"><a href="#viewmodel">View Model</a></li>
 					<li class="scroll-to-section" style="margin-right: 20px;"><a href="#Technologies">Technologies</a></li>
-										<li class="nav-item" style="margin-right: 20px;">
+					<li class="nav-item" style="margin-right: 20px;">
 						<a href="https://www.youtube.com/watch?v=ppQ95qvBmH8&t=10s" style="background-color:orange;color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Watch video</a>
 					  </li>
+					  
 				</ul>
 			</div>
 			
@@ -52,43 +53,51 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
-      <div class="slider-item">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text align-items-center" data-scrollax-parent="true">
-
-            <div class="col-md-6 col-sm-12 ftco-animate">
-            	<span class="subheading">Revolutionizing<br>Fire Safety with AI</span>
-              <h1 class="mb-4">Nirva - Agni<i class="fa fa-angellist" aria-hidden="true"></i></h1>
-              <p class="mb-4 mb-md-5">Nirva-Agni is an AI - based fire safety system.</p>
-            </div>
-			<div class="col-md-6 ftco-animate">
+	<section class="home-slider owl-carousel img" style="position: relative;">
+		<div class="slider-item" style="position: relative;">
+		  <!-- Add overlay to darken the video slightly -->
+		  <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 0;"></div>
+		  <div class="container" style="position: relative; z-index: 1;">
+			<div class="row slider-text align-items-center" data-scrollax-parent="true">
+			  <div class="col-md-6 col-sm-12 ftco-animate">
+				<span class="subheading">Revolutionizing<br>Fire Safety with AI</span>
+				<h1 class="mb-4">Nirva - Agni<i class="fa fa-angellist" aria-hidden="true"></i></h1>
+				<p class="mb-4 mb-md-5">Nirva-Agni is an AI-based fire safety system.</p>
+			  </div>
+			  <div class="col-md-6 ftco-animate">
 				<img src="images/bg_1.png" class="img-fluid" alt="" style="width: 2000px; height: 400px;">
+			  </div>
 			</div>
-			
-
-          </div>
-        </div>
-      </div>
-
-      <div class="slider-item">
-      	<div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text align-items-center" data-scrollax-parent="true">
-
-            <div class="col-md-6 col-sm-12 order-md-last ftco-animate">
-            	<span class="subheading">Kills Fire, Before it kills you.</span>
-              <h1 class="mb-4">AI based fire safety sytem</h1>
-              <p class="mb-4 mb-md-5"></p>
-            </div>
-            <div class="col-md-6 ftco-animate">
-            	<img src="images/bg_2.png" class="img-fluid" alt="">
-            </div>
-
-          </div>
-        </div>
-      </div>
+		  </div>
+		  <video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+			<source src="images\video1.mp4" type="video/mp4">
+			<source src="path/to/your-video.webm" type="video/webm">
+			<source src="path/to/your-video.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		  </video>
+		</div>
+	  
+		<div class="slider-item" style="position: relative;">
+		  <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 0;"></div>
+		  <div class="container" style="position: relative; z-index: 1;">
+			<div class="row slider-text align-items-center" data-scrollax-parent="true">
+			  <div class="col-md-6 col-sm-12 order-md-last ftco-animate">
+				<span class="subheading">Kills Fire, Before it kills you.</span>
+				<h1 class="mb-4">AI-based fire safety system</h1>
+				<p class="mb-4 mb-md-5"></p>
+			  </div>
+			  <div class="col-md-6 ftco-animate">
+				<img src="images/bg_2.png" class="img-fluid" alt="">
+			  </div>
+			</div>
+		  </div>
+		  <video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+			<source src="images\video1.mp4" type="video/mp4">
+			<source src="path/to/your-second-video.webm" type="video/webm">
+			<source src="path/to/your-second-video.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		  </video>
+		</div>
 
       <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
       	<div class="overlay"></div>

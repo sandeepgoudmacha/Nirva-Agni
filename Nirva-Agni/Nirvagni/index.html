@@ -31,17 +31,39 @@
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <a class="navbar-brand" href="index.html"><img src="images\nirva.png" alt="Fire Icon" style="width: 50px; height: 50px;">  NIRVA-AGNI</a>
+		      <a class="navbar-brand" href="index.html"><img src="images\nirva.png" alt="Fire Icon" style="width: 80px; height: 80px;">  NIRVA-AGNI</a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="oi oi-menu"></span> Menu
 		      </button>
 			  <div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<!-- <li class="nav-item active"><a href="index.html">Home</a></li> -->
-					<li class="scroll-to-section" style="margin-right: 20px;"><a href="#about">About</a></li>
-					<li class="scroll-to-section" style="margin-right: 20px;"><a href="#features">Features</a></li>
-					<li class="scroll-to-section" style="margin-right: 20px;"><a href="#viewmodel">View Model</a></li>
-					<li class="scroll-to-section" style="margin-right: 20px;"><a href="#Technologies">Technologies</a></li>
+					
+						<li class="scroll-to-section" style="margin-right: 20px;"><a href="#about" class="hover-button">About</a></li>
+						<li class="scroll-to-section" style="margin-right: 20px;"><a href="#features" class="hover-button">Features</a></li>
+						<li class="scroll-to-section" style="margin-right: 20px;"><a href="#viewmodel" class="hover-button">View Model</a></li>
+						<li class="scroll-to-section" style="margin-right: 40px;"><a href="#Technologies" class="hover-button">Technologies</a></li>
+				
+					
+					<style>
+						.hover-button {
+							display: inline-block;
+							padding: 3px 5px;
+							font-size: 16px;
+							color: #fff;
+							text-decoration: none;
+							/* border: 1px solid rgb(225, 152, 17); */
+							border-radius: 5px; /* Optional: rounded corners */
+							transition: all 0.3s ease; /* Smooth transition */
+							background-color: transparent; /* Transparent background */
+						}
+					
+						.hover-button:hover {
+							background-color: rgb(225, 152, 17); /* Yellow fill on hover */
+							color: black; /* Change text color for contrast */
+						}
+					</style>
+					
 					<li class="nav-item" style="margin-right: 20px;">
 						<a href="https://www.youtube.com/watch?v=ppQ95qvBmH8&t=10s" style="background-color:orange;color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Watch video</a>
 					  </li>
@@ -160,12 +182,12 @@
     	</div>
     </section>
 
-	<section class="ftco-section ftco-services" style="color: white;">
+	<section class="ftco-section ftco-services" style="color: black;">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-3">
 				<div class="col-md-7 heading-section ftco-animate text-center">
-					<h2 class="mb-4" style="color: white;">Our Services</h2>
+					<h2 class="mb-4" style="color: black;">Our Services</h2>
 					<p>we provide the best services</p>
 				</div>
 			</div>
@@ -175,8 +197,8 @@
 						<div class="icon d-flex justify-content-center align-items-center mb-5">
 							<img src="images/fire (1).png" alt="Fire Icon" style="width: 50px; height: 50px;">
 						</div>
-						<div class="media-body" style="color: white;">
-							<h3 class="heading" style="color: yellow;">Advanced Fire Detection</h3>
+						<div class="media-body" style="color: black;">
+							<h3 class="heading" style="color: black;">Advanced Fire Detection</h3>
 							<p>State-of-the-art fire extinguishing capabilities, ensuring rapid and effective response to fire incidents.</p>
 						</div>
 					</div>
@@ -186,8 +208,8 @@
 						<div class="icon d-flex justify-content-center align-items-center mb-5">
 							<img src="images/drops.png" alt="Water Icon" style="width: 50px; height: 50px;">
 						</div>
-						<div class="media-body" style="color: white;">
-							<h3 class="heading" style="color: yellow;">Precise High Water Suppression System</h3>
+						<div class="media-body" style="color: black;">
+							<h3 class="heading" style="color: black;">Precise High Water Suppression System</h3>
 							<p>The high water suppression makes it to reduce fire fastly.</p>
 						</div>
 					</div>
@@ -197,8 +219,8 @@
 						<div class="icon d-flex justify-content-center align-items-center mb-5">
 							<img src="images/robotic-arm.png" alt="Water Icon" style="width: 50px; height: 50px;">
 						</div>
-						<div class="media-body" style="color: white;">
-							<h3 class="heading" style="color: yellow;">Two – Axis System Robotic Arm</h3>
+						<div class="media-body" style="color: black;">
+							<h3 class="heading" style="color: black;">Two – Axis System Robotic Arm</h3>
 							<p>The two-axis method allows it to rotate in any direction and easy detection of fire.</p>
 						</div>
 					</div>
@@ -294,7 +316,7 @@
 		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Fire-detection</a>
 
 		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Water-Suppression</a>
-					  <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">3D</a>
+					  <a href="spline-view.html" class="nav-link" id="v-pills-5-tab" role="tab" aria-controls="v-pills-5" aria-selected="false">3D</a>
 
 		            </div>
 		          </div>
@@ -337,17 +359,16 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+						<!-- <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
 							<div class="row">
 								<div class="col-md-12 text-center">
-									<!-- Embed the Spline 3D model viewer here -->
 									<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js" async></script>
 									<spline-viewer loading-anim-type="spinner-big-light" url="https://prod.spline.design/YDk3OHEwtxBupIE3/scene.splinecode">
 										<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAANCAYAAADISGwcAAAG1El..." alt="Spline preview" style="width: 100%; height: 100%;" />
 									</spline-viewer>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						
 						
 		            </div>
